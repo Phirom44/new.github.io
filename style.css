@@ -1,0 +1,122 @@
+
+
+body{
+  
+    background-color: gainsboro;    
+}
+.Im{
+       color: black;
+        display: block;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+       border-radius:10%;
+       box-shadow: 0px 2px 12px 0px;
+       background-image: url();
+}
+div{
+    
+    text-align: center;
+   
+}
+p{
+    font-family: 'Fasthand', cursive;
+    font-weight: bolder ;     
+ }
+h2{
+    margin-bottom: auto;
+    font-family: Impact, Haettenschweiler, 'Arial  Bold', sans-serif;
+}
+button{
+    padding: 10px;
+    font-family: Arial  ;
+    font-size: larger;
+    border-radius: 10px;   
+}
+
+.Facebook{
+   background-color: darkcyan;
+    margin-bottom: 1.2rem;
+    box-shadow: 2px 6px;
+    width: 70%;
+   color: black;
+   
+}
+.Telegram{
+    background-color: darkcyan;
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 70%;
+    color: black;
+}
+.teleme{
+    background-color: darkcyan;
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 70%;
+    color: black;
+}
+.Instagram{
+    background-color: darkcyan;
+    margin-bottom:  1.2rem;
+    box-shadow: 2px 6px;
+    width: 70%;
+    color: black;
+}
+.TikTok{
+    background-color: darkcyan;
+    margin-bottom:  3rem;
+    box-shadow: 2px 6px;
+    width: 70%;
+    color: black;
+}
+.Facebook:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.Telegram:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.teleme:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.Instagram:hover {
+    background-color: blue;
+    color: white;
+    
+}
+.TikTok:hover {
+    background-color: blue;
+    color: white;
+    
+}
+@keyframes running-color {
+    0% {
+        color: darkorchid;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: darkmagenta;
+    }
+    75% {
+        color: gray;
+    }
+    100% {
+        color: darkred;
+    }
+}
+
+.running-text {
+    animation: running-color 6s infinite;
+}
+
+
